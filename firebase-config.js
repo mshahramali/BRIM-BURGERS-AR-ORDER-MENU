@@ -1,32 +1,15 @@
 // ============================================================
 // BRIM BURGERS — FIREBASE CONFIG
 // ============================================================
-// 1. Go to https://console.firebase.google.com
-// 2. Create a project (e.g. "brim-burgers-orders")
-// 3. Build > Realtime Database > Create Database
-//    - Start in TEST MODE for the demo (locks down later)
-// 4. Project settings > General > Your apps > Add app (Web "</>")
-// 5. Copy the config object it gives you and paste below.
-//
-// Realtime Database rules for the demo (Database > Rules tab):
-// {
-//   "rules": {
-//     "orders": {
-//       ".read": true,
-//       ".write": true
-//     }
-//   }
-// }
-// ============================================================
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDdYglcfFJFknS8-PPad0yRh7hjHxdbIfk",
+  authDomain: "brim-order-system-ar-menu.firebaseapp.com",
+  databaseURL: "https://brim-order-system-ar-menu-default-rtdb.firebaseio.com",
+  projectId: "brim-order-system-ar-menu",
+  storageBucket: "brim-order-system-ar-menu.firebasestorage.app",
+  messagingSenderId: "1095828636489",
+  appId: "1:1095828636489:web:639499376a253acde25098"
 };
 
 // Initialize (compat SDK loaded via CDN script tags in each HTML file)
